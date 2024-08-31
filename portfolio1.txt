@@ -1,0 +1,56 @@
+!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device width,initial-scale=1.0">
+        <meta name="description" content="personal profile page of Tejaswini">
+        <title>Tejaswini's portfolio</title>
+        <link rel="icon" href="C:\Users\tejas\OneDrive\Attachments\talent.ico" type="image/x-icon">
+        <link rel="stylesheet" href="C:\Users\tejas\OneDrive\Desktop\html\css_portfolio.css">
+    </head>
+    <body>
+        <center>
+            <header>
+                <h1>Welcome to my world!</h1>
+                <p>This is Tejaswini, a pantech intern</p>
+            </header>
+            <hr>
+
+            <section>
+                <h2>About me</h2>
+                <p>Hello! I'm Tejaswini, and here's little info about me.</p>
+                <img src="C:\Users\tejas\OneDrive\Pictures\SRI RAMA NAVAMI\my pic.jpeg" alt="teja pic" width="300">
+            </section>
+            <hr>
+
+            <section>
+                <h2>contact information</h2>
+                <p><a href="mail to:tejaswinimadduluri111@gmal.com">send me an mail</a></p>
+            </section>
+            <hr>
+
+            <section>
+                <h2>my personal Portfolio</h2>
+                <p>Take a look at some of my works.</p>
+                <p><a href="project.html">project1</a></p>
+            </section>
+            <hr>
+
+            <section>
+                <h2>Contact me</h2>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name"><br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"><br><br>
+                    <label for="message">message:</label>
+                    <textarea id="message" name="message"></textarea><br><br>
+                    <button type="submit">send</button>
+                </form>
+            </section>
+            <footer>
+                <p>&copy; 2024 Tejaswini. Build by WarriorWayHub</p>
+            </footer>
+        </center>
+    </body>
+</html>
